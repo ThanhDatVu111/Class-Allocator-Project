@@ -1,9 +1,3 @@
-// CS311 Yoshii F23 - el_t for HW8 Hash Table
-// Element type of a list node is defined here
-// el_t can be changed by the client to fit its needs
-// Edit ** parts
-// NEVER delete my comments!!
-//----------------------------------------------------
 #include "elem.h"
 #include <fstream>
 
@@ -60,4 +54,3 @@ ostream& operator<<(ostream& os, const el_t& E)
   os << E.key << "," << E.name << "," << E.age << "," << E.studentID << "  ";
   return os;  
 }  
-// if you make it come out just like the input file, Saving to a file will be easier
