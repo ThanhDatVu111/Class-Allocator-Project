@@ -1,1 +1,2 @@
 # Class-Allocator-Project
+In the dynamic landscape of education, the ClassMate Allocator serves as a powerful tool for seamless class selection and student allocation. This application streamlines the process of assigning students to 37 different classes based on their preferences. The keys within the system represent individual classes, and the allocation follows a first-come, first-served logic.
