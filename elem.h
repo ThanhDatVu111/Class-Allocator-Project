@@ -1,10 +1,3 @@
-// CS311 Yoshii F23 - el_t for HW8 Hash Table
-// Element type of a list node is defined here
-// el_t can be changed by the client to fit its needs
-// I use IFNDEF in case this file gets included more than once
-// Update based on **
-// ---------------------------------------------------------
-
 #ifndef A
 #define A
 #include <iostream>
