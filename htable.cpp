@@ -1,11 +1,4 @@
-// CS311 Yoshii F23 - Hash Table - complete all ** parts.
-// Note: this class does not know the parts of element except for key
-// so that it would work even if each element in the hash table changed
-//  NEVER delete my comments!!
-//-----------------------------------------------------
-
 // ============================================
-// HW#: HW8 Hash Table
 // Name: Thanh Dat Vu
 // File Type: implementation htable.cpp
 // =============================================
@@ -30,7 +23,6 @@ htable::~htable()
 }
 
 // a simple hash function that uses % TSIZE simply
-// For EC: you have to shorten the long key first!!!!
 int htable::hash(string key)
 {
   string shortenedKey = key.substr(0, 3);
