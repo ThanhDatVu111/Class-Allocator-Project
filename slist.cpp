@@ -1,9 +1,5 @@
-// CS311 Yoshii F23 slist.cpp
-// Complete all functions with their comments
-// NEVER delete my comments!!
 // ====================================================
-//HW#: HW3P1 slist  inheriting from llist
-//Your name: Thanh Dat Vu
+//Name: Thanh Dat Vu
 //Complier:  g++
 //File type: slist.cpp implementation file
 //=====================================================
@@ -12,14 +8,10 @@ using namespace std;
 #include<iostream>
 #include"slist.h" 
 
-// ** Make sure llist constructor and destructors have couts in them
-
-// do not change this one
 slist::slist()
 { 
   //cout << "Running slist constructor." << endl << endl;
-  //usually call the base class constructor construct an objects, and 
-  //derived class constructor can add its own logic on top of the base class's object initialization.
+  //usually call the base class constructor construct an objects, and derived class constructor can add its own logic on top of the base class's object initialization.
 }
 
 // positions always start at 1
@@ -55,8 +47,6 @@ el_t slist::search2(el_t X)
   return M; //current hit null mean there is no key in the list -> return 0;
 }
 
-// don't forget to throw OutOfRange for bad pos 
-// You must use moveTo to go to the pos
 void slist::replace(el_t element, int pos)
 {
   if (pos < 1 || pos > this->Count) //error case
