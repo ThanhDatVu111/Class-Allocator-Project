@@ -1,6 +1,5 @@
-// ====================================================
-//HW#: HW3P1 llist
-//Your name: Vu Thanh Dat
+//====================================================
+//Name: Thanh Dat Vu
 //Complier:  g++
 //File type: llist.cpp implementation file
 //=====================================================
@@ -40,7 +39,6 @@ llist::~llist()
 
 //PURPOSE: Return true if Front and Rear are both pointing to NULL and Count is 0
 //PARAMETER: Nothing is in the isEmpty parameter
-// be sure to check all 3 data members
 bool llist::isEmpty()
 {
   if (this->Front == NULL && this->Rear == NULL && this->Count == 0)
@@ -51,8 +49,6 @@ bool llist::isEmpty()
 
 //PURPOSE: Display each element of the list starting from Front to Rear, enclosed in [ ]
 //PARAMETER: Nothing is in the displayAll function parameter
-//Be sure to display horizontally in [  ] with blanks between elements e.g. [ 1 2 3 4]
-//You MUST use while (P != NULL) loop or you will not get the credit!
 void llist::displayAll()
 {
   if(isEmpty() == true)
@@ -72,7 +68,6 @@ void llist::displayAll()
 
 //PURPOSE: Adding new node to the rear of the linked list.
 //PARAMETER: pass in an int element from main and use it to create a new node that added to the rear.
-//comment the 2 cases
 void llist::addRear(el_t NewNum)
 {
   Node* New_node = new Node;
@@ -94,7 +89,6 @@ void llist::addRear(el_t NewNum)
 
 //PURPOSE: Adding new node to the front of the linked list.
 //PARAMETER:  pass in an int element from main and use it to create a new node that added to the front.
-// comment the 2 cases
 void llist::addFront(el_t NewNum)
 {
   Node* New_node = new Node;
@@ -116,7 +110,6 @@ void llist::addFront(el_t NewNum)
 
 //PURPOSE: delete the front element
 //PARAMETER: give back the front node element through OldNum (pass by reference)
-//comment the 3 cases
 void llist::deleteFront(el_t& OldNum)
 {
   if (isEmpty() == true) //error case
@@ -141,7 +134,6 @@ void llist::deleteFront(el_t& OldNum)
 
 //PURPOSE: delete the rear element
 //PARAMETER: give back the rear node element through OldNum (pass by reference)
-//comment the 3 cases
 void llist::deleteRear(el_t& OldNum)
 {
   if (isEmpty() == true) //error case
@@ -170,7 +162,6 @@ void llist::deleteRear(el_t& OldNum)
   }
 } 
 
-/* --- harder ones for case 2 and 3 follow -- */
 // Utility Function to move a local pointer to the Jth node
 void llist::moveTo(int J, Node*& temp)
 { 
