@@ -1,16 +1,4 @@
-// CS311 Yoshii F23 - hw8client.cpp
-//   ** should be completed!!!
-//
-// Note that the client knows about elem.h functions.
-// It can create el_t objects.
-// Note that el_t X; will create a blank element X using the regular constructor.  
-// Note that the second constructor of el_t can be used to
-// create key+other info to add to the table. e.g. el_t X(30, "mary"...);
-// NEVER delete my comments!!
-//-----------------------------------------------
-
 //============================================
-// HW#: HW8 hashing client
 // Name: Thanh Dat Vu
 // File type: client hw8client.cpp (tester)
 //===========================================
