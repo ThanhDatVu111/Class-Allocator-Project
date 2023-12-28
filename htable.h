@@ -1,8 +1,3 @@
-// CS311 Yoshii - DO NOT CHANGE!!
-// This hash table has the slist in each slot
-// This hash table knows nothing about elem except the key part
-// This way it is easy to change other parts of el_t later.
-//=============================================================
 #include "slist.h"
 const int TSIZE = 37;  // prime number 
 class htable
