@@ -9,14 +9,8 @@ using namespace std;
 #include <fstream>
 #include <string>
 
-//=====An explanation of what this App should be used for.======
-//This app is used for Quick Information Retrieval:
-//Using the key number, we can quickly retrieve the corresponding student information in that specific class.
-//This is especially useful when we have a large dataset, and we want to access information 
-//about individuals without having to search through the entire list.
 int main()
 { 
-  //cout an explanation of what this App should be used for. 
   cout << "\n===== An explanation of what this App should be used for ======" << endl;
   cout << "Scenario: Class Selection and Student Allocation" << endl;
   cout << "          Allocate Students to 37 Different Classes based on thier selection."<< endl;
